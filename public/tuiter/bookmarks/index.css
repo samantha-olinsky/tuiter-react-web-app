@@ -1,0 +1,116 @@
+body {
+  padding: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+#header > .wd-handle {
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+#header .wd-ellipses {
+  float: right;
+  top: -55px;
+}
+
+.wd-post {
+  margin-top: -1px;
+  padding: 12px;
+}
+
+.wd-post .wd-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  vertical-align: top;
+}
+
+.wd-post-content {
+  padding: 0 12px;
+  width: 506px;
+  display: inline-block;
+}
+
+.wd-post .wd-ellipses {
+  top: -10px;
+  float: right;
+}
+
+.wd-post .wd-author {
+  font-size: 15px;
+}
+
+.wd-post .wd-handle {
+  font-size: 15px;
+  float: left;
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-right: 5px;
+}
+
+.wd-handle {
+  font-weight: normal;
+}
+
+.wd-post .wd-time {
+  font-size: 15px;
+}
+
+.wd-post-text {
+  clear: left;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.wd-post .wd-image {
+  border-radius: 15px 15px 0 0;
+  width: 504px;
+  height: 264px;
+}
+
+.wd-image-description {
+  position: relative;
+  top: -5px;
+  padding: 12px;
+  border-radius: 0 0 15px 15px;
+}
+
+.wd-image-description p {
+  font-size: 15px;
+}
+
+#content-link {
+  display: inline-block;
+}
+
+.wd-fg-color-red {
+  color: red;
+}
+
+.wd-post-actions {
+  padding: 12px;
+}
+
+.wd-post-action {
+  margin-right: 60px;
+}
+
+.wd-post-action .wd-num {
+  display: inline-block;
+  padding: 0 12px;
+}
+
+.wd-post-action p {
+  font-size: 15px;
+}
