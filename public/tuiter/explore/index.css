@@ -3,13 +3,8 @@ body {
 }
 
 #header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   border-bottom: rgb(47, 51, 54) solid 3px;
   margin: 0 30px 30px;
-  z-index: 100;
 }
 
 #search-bar {
@@ -19,7 +14,7 @@ body {
   width: 75%;
 }
 
-.settings-gear {
+#settings-gear {
   float: right;
   position: relative;
   top: 5px;
@@ -42,7 +37,7 @@ body {
 
 #main {
   position: relative;
-  top: 76px;
+  top: 106px;
 }
 
 #spacer {

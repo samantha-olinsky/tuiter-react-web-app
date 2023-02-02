@@ -5,7 +5,6 @@ body {
 
 * {
   font-family: sans-serif;
-  /*margin: 0;*/
 }
 
 p {
@@ -18,8 +17,18 @@ a {
 }
 
 #header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
   background-color: black;
   padding: 12px 16px 0;
+}
+
+#back-button {
+  display: block;
+  margin-bottom: 12px;
 }
 
 .wd-icon {

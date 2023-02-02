@@ -13,6 +13,10 @@ p {
   line-height: 1.4;
 }
 
+#header {
+  margin: 0 16px;
+}
+
 #header > .wd-handle {
   font-size: 13px;
   margin-top: 4px;
@@ -21,7 +25,12 @@ p {
 
 #header .wd-ellipses {
   float: right;
-  top: -55px;
+  /*top: -55px;*/
+}
+
+#main {
+  position: relative;
+  top: 83px;
 }
 
 .wd-post {
