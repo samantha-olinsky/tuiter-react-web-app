@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  background-color: black;
+  padding: 12px 16px 0;
+}
+
+#back-button {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.wd-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.wd-fg-color-gray {
+  color: rgb(110, 118, 125);
+}
+
+.wd-bg-darkgray {
+  background-color: rgb(34, 36, 41);
+}
+
+.wd-border-gray {
+  border: rgb(47, 51, 54) solid 1px;
+}
+
+.wd-hide-overflow {
+  overflow: hidden;
+}
+
+.wd-ellipses {
+  font-size: x-large;
+  position: relative;
+}
+
+.wd-author {
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-right: 5px;
+}
+
+.wd-time {
+  float: left;
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.wd-image {
+  object-fit: cover;
+}
+
+.wd-fg-color-blue {
+  color: rgb(29, 161, 242);
+}
