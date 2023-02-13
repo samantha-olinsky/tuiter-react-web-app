@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Explore</title>
+
+  <script src="https://kit.fontawesome.com/15cac987ea.js" crossorigin="anonymous"></script>
+  <link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+  <div class="container mt-2 mb-2">
+    <a href="../../../index.html">Back</a>
+  </div>
+  <div class="row">
+    <div class="col-2 col-lg-1 col-xl-2" id="sidebar">
+      <div class="list-group mb-2">
+        <span class="list-group-item text-primary"><span class="sidebar-icon"><i class="fa fa-twitter" id="twitter-icon"></i></span></span>
+        <a class="list-group-item list-group-item-action" href="#">
+          <span class="sidebar-icon">
+          <i class="fa fa-house position-relative" id="home-icon"></i>
+          <i class="fa fa-circle text-primary position-relative" id="notification-bubble-icon"></i>
+          </span>
+          <span class="d-xl-inline d-none">Home</span>
+        </a>
+        <a class="list-group-item list-group-item-action active" href="#"><span class="sidebar-icon"><i class="fa fa-hashtag"></i></span><span class="d-xl-inline d-none "> Explore</span></a>
+        <a class="list-group-item list-group-item-action" href="#"><span class="sidebar-icon"><i class="fa-regular fa-bell"></i></span><span class="d-xl-inline d-none"> Notifications</span></a>
+        <a class="list-group-item list-group-item-action" href="#"><span class="sidebar-icon"><i class="fa-regular fa-envelope"></i></span><span class="d-xl-inline d-none"> Messages</span></a>
+        <a class="list-group-item list-group-item-action" href="#"><span class="sidebar-icon"><i class="fa fa-bookmark-o"></i></span><span class="d-xl-inline d-none"> Bookmarks</span></a>
+        <a class="list-group-item list-group-item-action" href="#"><span class="sidebar-icon"><i class="fa-brands fa-hotjar"></i></span><span class="d-xl-inline d-none"> Top Articles</span></a>
+        <a class="list-group-item list-group-item-action" href="#"><span class="sidebar-icon"><i class="fa-regular fa-user"></i></span><span class="d-xl-inline d-none"> Profile</span></a>
+        <a class="list-group-item list-group-item-action" href="#"><span class="sidebar-icon"><span class="fa-stack ">
+          <i class="fa-regular fa-circle fa-stack-1x"></i>
+          <i class="fa fa-ellipsis-h fa-stack-1x small"></i></span></span>
+          <span class="d-xl-inline d-none">More</span></a>
+      </div>
+      <button type="button" class="btn btn-primary rounded-5 w-100">Tuit</button>
+    </div>
+    <div class="col-10 col-lg-7 col-xl-6" id="main">
+      <div class="w-100 d-flex mb-2 align-items-center" id="top-content">
+        <form class="bg-dark bg-opacity-10 rounded-5 p-2 ps-3 d-inline-flex flex-fill align-items-center ">
+          <label for="search"><i class="fa fa-search opacity-50"></i></label>
+          <input id="search" placeholder="Search Tuiter" class="border-0 bg-transparent ms-3 me-3 w-100"/>
+        </form>
+        <a class="d-inline-flex ms-5" href="#" id="settings-gear"><i class="fa fa-solid fa-gear fa-1x"></i></a>
+      </div>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active " href="#">For you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Trending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="#">Entertainment</a>
+        </li>
+      </ul>
+      <div class="position-relative" id="highlight-story">
+        <img class="img-fluid" src="../../../images/tennis.jpeg"/>
+        <div class="position-absolute start-0 bottom-0 ms-3 mb-2 text-light">
+          <p>Tennis Tournament • LIVE</p>
+          <h4 class="fw-bold">Australia Open 2023</h4>
+        </div>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <i class="float-end ms-3 p-2 fa fa-ellipsis-h fa-1x text-secondary"></i>
+          <p class="text-secondary small">Politics • Trending</p>
+          <p class="fw-semibold">Seizures</p>
+          <p class="text-secondary small">4,953 Tuits</p>
+        </li>
+        <li class="list-group-item">
+          <p class="fw-semibold">#InfinityPool</p>
+          <p class="text-secondary">See the electrifying thriller Infinity Pool in theatres — if you dare</p>
+          <p class="text-secondary small"><i class="fa fa-square-up-right"></i> Promoted by NEON</p>
+        </li>
+        <li class="list-group-item">
+          <i class="float-end ms-3 p-2 fa fa-ellipsis-h fa-1x text-secondary"></i>
+          <p class="text-secondary small">Sports • Trending</p>
+          <p class="fw-semibold">RIP Bean</p>
+          <p class="text-secondary small">18K Tuits</p>
+        </li>
+        <li class="list-group-item">
+          <i class="float-end ms-3 p-2 fa fa-ellipsis-h fa-1x text-secondary"></i>
+          <p class="text-secondary small">Politics • Trending</p>
+          <p class="fw-semibold">Durham</p>
+          <p class="text-secondary small">Trending with <span class="text-primary">Barr</span>, <span class="text-primary">Barr</span></p>
+        </li>
+        <li class="list-group-item">
+          <i class="float-end ms-3 p-2 fa fa-ellipsis-h fa-1x text-secondary"></i>
+          <p class="text-secondary small">Trending in Business and finance</p>
+          <p class="fw-semibold">#DirectedEvolution</p>
+          <p class="text-secondary small">172K Tuits</p>
+        </li>
+
+      </ul>
+    </div>
+    <div class="d-none d-lg-block col-lg-4" id="right-col">
+      <ul class="list-group m-2">
+        <li class="list-group-item h5 fw-bolder mt-1">Who to Follow</li>
+        <li class="list-group-item align-items-center d-flex flex-row w-100">
+          <img class="rounded-5 me-3" src="../../../images/northeastern.png"/>
+          <div class="flex-column flex-fill">
+            <p class="align-items-center small"><span class="fw-bold">Northeastern U. </span><i class="fa fa-check-circle text-primary"> </i></p>
+            <p class="small opacity-75">@Northeastern</p>
+          </div>
+          <button class="btn btn-dark rounded-5 ms-auto ps-3 pe-3" type="button">Follow</button>
+        </li>
+        <li class="list-group-item align-items-center d-flex flex-row w-100">
+          <img class="rounded-5 me-3" src="https://pbs.twimg.com/profile_images/1561717677600686083/Dm80jwOp_400x400.jpg"/>
+          <div class="flex-column flex-fill">
+            <p class="align-items-center small"><span class="fw-bold">Matt Wallace </span><i class="fa fa-check-circle text-primary"> </i></p>
+            <p class="small opacity-75">@MattWallace888</p>
+          </div>
+          <button class="btn btn-dark rounded-5 ms-auto ps-3 pe-3" type="button">Follow</button>
+        </li>
+        <li class="list-group-item align-items-center d-flex flex-row w-100">
+          <img class="rounded-2 me-3" src="../../../images/pointsbet.png"/>
+          <div class="flex-column flex-fill">
+            <p class="align-items-center small"><span class="fw-bold">PointsBet Sportsb... </span><i class="fa fa-check-circle text-warning"> </i></p>
+            <p class="small opacity-75">@PointsBetUSA</p>
+          </div>
+          <button class="btn btn-dark rounded-5 ms-auto ps-3 pe-3" type="button">Follow</button>
+        </li>
+        <li class="list-group-item align-items-center d-flex flex-row w-100" id="promoted">
+          <img class="rounded-2 me-3 opacity-0" src=""/>
+          <div class="flex-column flex-fill">
+            <p class="text-secondary small mt-2"><i class="fa fa-square-up-right"></i> Promoted</p>
+          </div>
+          <button class="btn btn-dark rounded-5 ms-auto ps-3 pe-3 opacity-0" type="button"></button>
+        </li>
+        <p class="text-primary m-3">Show more</p>
+      </ul>
+      <p class="text-secondary m-3 ps-2" id="copyright-info">Terms of Service <span class="m-1"></span> Privacy Policy <span class="m-1"></span> Cookie Policy <span class="m-1"></span> Accessibility <span class="m-1"></span> Ads info <span class="m-1"></span> More <i class="fa fa-ellipsis-h"></i>
+        <br/><i class="fa fa-copyright"></i> 2023 Tuiter, Inc.</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+</body>
+</html>

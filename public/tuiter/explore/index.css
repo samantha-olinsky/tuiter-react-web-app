@@ -1,7 +1,6 @@
 
-.list-group-item-action > .fa-stack {
-  margin-left: -10px;
-  margin-right: -10px;
+.list-group-item-action .fa-stack {
+  margin: -10px;
 }
 
 #main .list-group-item > img {
