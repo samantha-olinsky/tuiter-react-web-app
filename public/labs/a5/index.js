@@ -173,6 +173,7 @@ loggedIn = false;
 const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
 console.log(greeting2)
 
+/* eslint-env jquery */
 
 const init = () => {
   console.log('Hello world from jQuery');
