@@ -22,3 +22,11 @@ p {
 .card-body {
   border-top: 1px solid gray(0.175);
 }
+
+.wd-fg-color-gray {
+  color: rgb(110, 118, 125);
+}
+
+a {
+  text-decoration: none;
+}

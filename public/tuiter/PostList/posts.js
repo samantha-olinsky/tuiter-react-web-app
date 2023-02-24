@@ -4,7 +4,7 @@ export default [
     handle: 'elonmusk',
     avatarIcon: 'elon.jpeg',
     time: '23h',
-    text: 'Amazing show about @Inspiration4x mission!',
+    text: 'Amazing show about <a href="#">@Inspiration4x</a> mission!',
     card: {
       image: 'inspiration4.jpeg',
       imageTitle: 'Countdown: Inspiration4 Mission to Space | Netflix Official Site',
@@ -19,7 +19,7 @@ export default [
     handle: 'nypost',
     avatarIcon: 'nyp.jpeg',
     time: '23h',
-    text: "Grimes seen reading Karl Marx following split with world's richest man Elon Musk trib.al/nx2gGfaq",
+    text: "Grimes seen reading Karl Marx following split with world's richest man Elon Musk <a href=\"#\">trib.al/nx2gGfaq</a>",
     image: 'grimes.jpeg',
     numComments: '965',
     numRetuits: '2.4K',
