@@ -22,8 +22,17 @@ import Asd from "./six";
 // console.log(w)
 
 // 3
-const q = [51, 42, 65, 24, 15]
-const w = q.findIndex(a => a === 24)
+// const q = [51, 42, 65, 24, 15]
+// const w = q.findIndex(a => a === 24)
+// console.log(w)
+
+// w = {a: 123, b: 345, c: 456}
+// const q = {a: 123, b: 234}
+// const w = {...q, c: 345, b: 456}
+// console.log(w)
+
+const q = ["ewq", "dsa", "qwe", "asd", "zxc"]
+const w = q.find((b, a) => b === "qwe")
 console.log(w)
 
 function Midterm() {
@@ -32,6 +41,8 @@ function Midterm() {
         <Nav/>
         <h1>Midterm</h1>
         {/*<Asd/>*/}
+        {/*<Jkl/>*/}
+        <Xyz/>
       </div>
   );
 }

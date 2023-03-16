@@ -1,5 +1,4 @@
 import {useState} from "react";
-import conditionalOutput from "../a6/conditional-output";
 
 function Xyz() {
   const [qwe, wer] = useState([123, 234, 345, 456, 567])

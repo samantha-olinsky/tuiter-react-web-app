@@ -1,7 +1,7 @@
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter, Link} from "react-router-dom";
 import {Routes, Route} from "react-router";
 import Midterm from "./labs/midterm";
 
@@ -24,3 +24,18 @@ function App() {
   );
 }
 export default App;
+
+// import Asd from "./labs/midterm/Asd"
+// import Rew from "./labs/midterm/Rew"
+// function App() {
+//   return(
+//       <BrowserRouter>
+//         <Link to="/qwe/21/14/wer">LINK A</Link>
+//         <Routes>
+//           <Route path="/qwe/:qwe/:wer/wer" element={<Rew/>}/>
+//           <Route path="/asd/:zxc/:xcv" element={<Asd/>}/>
+//         </Routes>
+//       </BrowserRouter>
+//   )
+// }
+// export default App;
