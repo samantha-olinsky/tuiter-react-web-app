@@ -1,14 +1,9 @@
-
-.list-group-item-action .fa-stack {
-  margin: -10px;
-}
-
-#main .list-group-item > img {
+.post-summary-image {
   width: 80px;
   height: 80px;
 }
 
-#right-col .list-group-item > img {
+.avatar-img {
   width: 40px;
   height: 40px;
 }
