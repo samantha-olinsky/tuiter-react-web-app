@@ -1,16 +1,15 @@
 import React from "react";
-import PostItem from "./PostItem.js";
-import posts from "./posts.js";
+import TuitsList from "../tuits/tuits-list.js";
 import "./index.css";
 
 const HomeComponent = () => {
   return(
-    <ul className="list-group">
-        {
-            posts.map(post =>
-              <PostItem key={post._id} post={post}/> )
-        }
-    </ul>
+    <div className="container">
+      <h4>Home</h4>
+      <ul className="list-group">
+        <TuitsList/>
+      </ul>
+    </div>
   );
 }
 export default HomeComponent;
