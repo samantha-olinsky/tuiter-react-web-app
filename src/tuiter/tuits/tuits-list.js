@@ -1,12 +1,15 @@
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {toggleLiked} from "./tuits-reducer";
+import {deleteTuit, toggleLiked} from "./tuits-reducer";
 
 const TuitList = () => {
   const tuitsArray = useSelector(state => state.tuits)
   const dispatch = useDispatch();
   const toggleLikedClickHandler = (tI) => {
     dispatch(toggleLiked(tI))
+  }
+  const deleteTuitHandler = (id) => {
+    dispatch(deleteTuit(id));
   }
   return(
       <ul className="list-group">
@@ -15,6 +18,8 @@ const TuitList = () => {
               <li className="list-group-item d-flex flex-row w-100">
                 <img className="me-3 avatar-img mt-1" src={`/images/${tuitItem.image}`}/>
                 <div className="flex-column flex-fill">
+                  <i className="bi bi-x-lg float-end"
+                     onClick={() => deleteTuitHandler(tuitItem._id)}/>
                   <p className="mb-0"><span className="fw-bold">{tuitItem.userName} </span><i className="fa fa-check-circle"/> <span className="text-secondary">{tuitItem.handle} • {tuitItem.time}</span></p>
                   <p>{tuitItem.tuit}</p>
                   <div className="d-flex flex-row w-100 pb-2">

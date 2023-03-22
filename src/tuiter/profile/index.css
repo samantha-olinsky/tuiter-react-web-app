@@ -1,0 +1,13 @@
+.wd-profile-picture {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 140px;
+  width: 140px;
+  position: relative;
+  top: -70px;
+  left: 15px;
+}
+
+.wd-profile-images-div {
+  margin-bottom: -40px;
+}

@@ -13,47 +13,47 @@ const NavigationSidebar = () => {
         <Link to="/tuiter/" className={`list-group-item
                     ${active === ""?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-home"/></span>
-          Home
+          <span className="d-xl-inline d-none ">Home</span>
         </Link>
         <Link to="/tuiter/explore" className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-hashtag"/></span>
-          Explore
+          <span className="d-xl-inline d-none ">Explore</span>
         </Link>
         <Link to="/" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-asterisk"/></span>
-          Labs
+          <span className="d-xl-inline d-none ">Labs</span>
         </Link>
         <Link to="#" className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-bell"/></span>
-          Notifications
+          <span className="d-xl-inline d-none ">Notifications</span>
         </Link>
         <Link to="#" className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-envelope"/></span>
-          Messages
+          <span className="d-xl-inline d-none ">Messages</span>
         </Link>
         <Link to="#" className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-bookmark"/></span>
-          Bookmarks
+          <span className="d-xl-inline d-none ">Bookmarks</span>
         </Link>
         <Link to="#" className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-list"/></span>
-          Lists
+          <span className="d-xl-inline d-none ">Lists</span>
         </Link>
-        <Link to="#" className={`list-group-item
+        <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-user"/></span>
-          Profile
+          <span className="d-xl-inline d-none ">Profile</span>
         </Link>
         <Link to="#" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
           <span className="wd-nav-icon"><i className="fa fa-ellipsis-h"/></span>
-          More
+          <span className="d-xl-inline d-none ">More</span>
         </Link>
       </div>
   );
