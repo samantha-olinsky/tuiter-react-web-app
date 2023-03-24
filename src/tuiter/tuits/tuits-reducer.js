@@ -9,7 +9,6 @@ const currentUser = {
 
 const templateTuit = {
   ...currentUser,
-  "topic": "Space",
   "time": "2h",
   "liked": false,
   "replies": 0,
@@ -49,5 +48,5 @@ const tuitsSlice = createSlice({
 
 export const {
   toggleLiked, createTuit, deleteTuit
-} = tuitsSlice.actions
+} = tuitsSlice.actions;
 export default tuitsSlice.reducer;
