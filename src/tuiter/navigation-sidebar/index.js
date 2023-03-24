@@ -1,7 +1,7 @@
 import React from "react";
 import {useLocation} from "react-router";
 import "./index.css";
-import NavItem from "./NavItem";
+import NavItem from "./nav-item";
 import navItems from "./nav-items";
 
 const NavigationSidebar = () => {
